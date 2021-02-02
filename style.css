@@ -1,0 +1,125 @@
+@import url(http://fonts.googleapis.com/css?family=Varela+Round|Open+Sans:400,300,600,400italic,700);
+ .intro .title h2, #resume h2 {
+	 color: #11cfff;
+	 text-shadow: none;
+	 font-size: 40px;
+	 font-family: Montserrat, sans-serif;
+	 text-shadow: -1px 0 1px #000;
+}
+ dl dt {
+	 color: black;
+}
+ dl dd p {
+	 text-align: justify;
+}
+/* ==== Google font ==== */
+ body {
+	 width: 100%;
+	 height: 100%;
+	 font-family: 'Open Sans', sans-serif;
+	 font-weight: 400;
+	 color: #888;
+	 font-size: 16px;
+	 line-height: 1.6em;
+	 background-color: #fff;
+}
+ html {
+	 width: 100%;
+	 height: 100%;
+}
+ nav ul {
+	 align-items: center;
+	 margin-left: auto;
+	 margin-right: auto;
+}
+/* =========================== --- Home ============================ */
+ .intro {
+	 width: 100%;
+	 position: relative;
+	 background: url(image/bg1.jpg) no-repeat top center;
+	 background-size: cover;
+	 margin-bottom: 0;
+	 height: 100%;
+}
+ #intro.intro {
+	 padding: 200px 0 150px 0;
+}
+ .intro .title {
+	 text-align: center;
+	 margin-top: 50px;
+}
+ .intro .title h2 {
+	 line-height: 200px;
+	 font-weight: 700;
+	 background-color: rgba(0, 0, 0, 0);
+	 text-transform: uppercase;
+	 border-width: 0px;
+	 border-color: #000;
+	 border-style: none;
+}
+ .intro .menu ul li {
+	 color: #fff;
+	 text-shadow: none;
+	 font-size: 25px;
+	 list-style-type: none;
+	 text-align: center;
+	 line-height: normal;
+	 text-shadow: -1px 0 1px #000;
+}
+ .intro .menu ul li a {
+	 color: #fff;
+}
+ .intro .menu ul li a:hover {
+	 color: #11cfff;
+}
+/* =========================== --- About me ============================ */
+ #about {
+	 margin-top: 30px;
+	 margin-bottom: 50px;
+}
+ .aboutImg {
+	 display: block;
+	 margin: 30px auto;
+	 width: 90%;
+}
+ .aboutMe {
+	 margin-top: 30px;
+}
+ button a {
+	 color: #fff;
+}
+ button a:hover {
+	 color: #f7f7f7;
+}
+ #resumeBTN {
+	 margin-bottom: 150px;
+}
+/* =========================== --- contact me ============================ */
+ #contact .section-heading {
+	 margin-top: 50px;
+	 margin-bottom: 50px;
+}
+ #info {
+	 padding-top: 30px;
+}
+/* =========================== --- resume ============================ */
+ #resume {
+	 margin-top: 50px;
+	 margin-left: auto;
+	 margin-right: auto;
+}
+ #resume h5 {
+	 line-height: normal;
+	 margin-bottom: 40px;
+}
+/* =========================== --- media ============================ */
+ @media (max-width: 600px) {
+	 body {
+		 background-color: #dcd0ff;
+	}
+	 #resume h2 {
+		 color: black;
+		 font-style: italic;
+	}
+}
+ 
